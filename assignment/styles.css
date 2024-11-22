@@ -1,0 +1,90 @@
+* {
+    font-family: cursive;
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: rgb(208, 248, 28);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: darkblue;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    font-style: italic;
+}
+
+img {
+    margin: 10px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 2px black;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 2em;
+}
+
+.column {
+    padding: 10px;
+    text-align: left;
+    float:left;
+    width: 50%;
+    height: 50px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#java {
+    color: red;
+}
+
+#swift {
+    color: blue;
+}
+
+#python {
+    color: green;
+}
+
+#travel {
+    color:deeppink;
+}
+
+#hiking {
+    color:darkolivegreen;
+}
+
+#diving {
+    color: darkslateblue;
+}
